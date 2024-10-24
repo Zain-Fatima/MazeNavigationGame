@@ -19,7 +19,7 @@ The game is built using JavaScript and the Three.js library, which allows for cr
 2. **Collision Detection**: The game uses Axis-Aligned Bounding Boxes (AABB) to check for collisions between the player and the walls. This is done by creating a bounding box for the player and checking if it intersects with any wall bounding boxes.
 
 #### Challenges
-1. **Maze Complexity**: Creating a maze that is both challenging and fun required careful consideration of the wall placement and the player's path options.
+1. **Maze Complexity**: Creating a challenging and fun maze requires careful consideration of the wall placement and the player's path options.
 
 2. **Collision Handling**: Ensuring smooth movement without getting stuck on walls was challenging. The collision detection logic needed to be precise to avoid frustrating gameplay.
 
@@ -30,7 +30,13 @@ The game is built using JavaScript and the Three.js library, which allows for cr
 
 2. **Commenting and Documentation**: The code is well-commented, explaining the purpose of each function and key lines of code. This helps anyone reading the code to quickly grasp what each part does.
 
-3. **User Testing**: After implementing features, the game was tested to ensure that it works as expected and that the user experience is smooth. Feedback from these tests helped refine the gameplay and interface.
 
 ### Conclusion
 This maze navigation game demonstrates fundamental concepts of game development, including scene management, event handling, and collision detection. The approach taken in designing the maze, along with clear code organization and documentation, contributes to a fun and engaging experience for players. By continuously improving the interface and code structure, the game not only becomes more enjoyable but also serves as a learning tool for future projects.
+
+### Resources
+https://github.com/wwwtyro/Astray  
+https://codepen.io/bartuc/pen/JLzRwY  
+https://bryanjones.us/article/basic-threejs-game-tutorial-part-5-collision-detection  
+https://aryanab.medium.com/maze-generation-recursive-backtracking-5981bc5cc766  
+https://stackoverflow.com/questions/60532245/implementing-a-recursive-backtracker-to-generate-a-maze
